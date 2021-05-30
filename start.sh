@@ -1,4 +1,5 @@
 #!/bin/bash
+dpkg --configure -a
 apt-get update
 apt-get install git -y
 apt-get install tmux -y
